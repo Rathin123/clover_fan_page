@@ -1,0 +1,44 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-color: rgb(2, 14, 17);
+}
+
+img {
+    max-width: 50%;
+    max-height: auto;
+
+    border-radius: 3%;
+    /*box-shadow: 0 10px 10px rgba(255, 255, 255, 0.1), 0 6px 6px rgba(255, 255, 255, 0.1);*/
+}
+
+h1{
+    background: linear-gradient(310deg, #b10000, #e75d5d, #0086ff, #0d7163);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 6s ease infinite;
+    -o-animation: AnimationName 6s ease infinite;
+    animation: AnimationName 6s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
